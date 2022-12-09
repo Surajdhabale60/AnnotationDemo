@@ -14,10 +14,10 @@ namespace AnnotationDemo
             Console.WriteLine("Employee class Validation");
             Console.WriteLine("-----------------------------\n");
             Employee objEmployee = new Employee();
-            objEmployee.Name = "Sid";
-            objEmployee.Age = 18;
-            objEmployee.PhoneNumber = "7894561230";
-            objEmployee.Email = "sid@gmail.com";
+            objEmployee.Name = "Suraj";
+            objEmployee.Age = 19;
+            objEmployee.PhoneNumber = "9874563210";
+            objEmployee.Email = "Suraj@gmail.com";
 
             ValidationContext context = new ValidationContext(objEmployee, null, null);
             List<ValidationResult> results = new List<ValidationResult>();
